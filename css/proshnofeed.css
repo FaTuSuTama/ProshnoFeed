@@ -1,0 +1,342 @@
+body{
+    background-color: #ecefed;
+    margin: 0; 
+}
+.mainContainer{
+    max-width: 964px;
+    margin: 0 auto;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #6C7A89;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+em{
+    font-style: normal;
+    font-size: 15px;
+    color: #404040;
+    font-weight: 500;
+}
+/*-------Header Area Starts----------*/
+.headerContainer{
+    height: 48px;
+    background-color: #00728b;
+    box-shadow: 3px 0px 5px #888;
+    max-width: 964px;
+    position: fixed; 
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.headerWrapper{
+    padding: 10px 12px;
+}
+.leftIcon{
+    background: url('../img/SpriteImage.png') no-repeat -267px -2427px;
+    width: 19px; 
+    height: 13px;
+    float:left;
+    margin-top: 7px;
+    position: relative;
+}
+.centerLogo{
+    background: url('../img/SpriteImage.png') no-repeat -144px -1722px;
+	width: 51px;
+	height: 26px;
+    float:left;
+    left: 44%;
+    position: absolute;
+}
+.rightIcon{
+    background: url('../img/SpriteImage.png') no-repeat -89px -1102px;
+	width: 35px;
+	height: 20px;
+    float: right;
+}
+/*------Header Area Ends------*/
+
+/*-------Sidebar Starts--------*/
+.sidebarContainer{
+    background-color: #fff;
+    height: 100%;
+    width: 90%;
+    max-width: 550px;
+    overflow-y: auto;
+    top: 0px;
+    position: fixed;
+    box-shadow: 10px 14px 34px #888888;
+    z-index: 2;
+}
+
+.top3Menu li,.proshnoTopic li,.footerArea li{
+    list-style: none;
+}
+
+.headerArea{
+    background-color: #00728B;
+    height: 165px;
+    padding: 10px 15px;
+}
+.content{
+    padding:10px 15px;
+    
+}
+.id_name{
+    color: #fff;
+    font-size: 22px;
+    font-style:normal;
+    font-family: sans-serif;
+    padding-left: 21px;
+    padding-top: 20px;
+}
+.userDetail img{
+    border-radius: 50%;
+}
+.rightBtn{
+    background: url('../img/SpriteImage.png') no-repeat -178px -1215px;
+	width: 21px;
+	height: 21px;
+    float: right;
+    margin-top: 22px;
+    padding-right: 5px;
+}
+.rank{
+    color: #fff;
+}
+.latestPoint{
+    color: #fff;
+    font-size: 20px;
+}
+.sideAdda{
+    background: url('../img/SpriteImage.png') no-repeat -175px -967px;
+	width: 32px;
+	height: 29px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.sideAdda2{
+    background: url('../img/SpriteImage.png') no-repeat -258px -1713px;
+    padding-left: 43px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sideAdda3{
+    background: url('../img/SpriteImage.png') no-repeat -178px -119px;
+    padding-left: 49px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top3Menu li,.footerArea li{
+    padding-bottom: 30px;
+}
+.top3Menu,.proshnoTopic{
+     border-bottom: 1px solid #eeeeee;
+}
+
+.proshnoTopic li{
+    padding-bottom: 35px;
+}
+
+.leader{
+    background: url('../img/SpriteImage.png') no-repeat -29px -2301px;
+    padding-left: 41px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.leader1{
+    background: url('../img/SpriteImage.png') no-repeat -26px -2414px;
+    padding-left: 41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerArea{
+    padding-top: 35px;
+}
+
+.border{
+    border:1px solid #e2e2e2;
+}
+.topic{
+    color: #B0B0B0;
+}
+
+/*-------Sidebar Ends---------*/
+
+/*------Feeder Area Starts-----*/
+    
+.proshnoSection{
+    margin-top: 10px;
+    top: 48px;
+    position: relative;
+    width: 100%;
+  }
+.mainArea{
+    margin: 0 5px;
+    display: block;
+}
+.proshnoArea{
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 15px auto;
+    box-shadow: 1px 1px 4px #ddd;
+    overflow: hidden;
+}
+.proshnoPart{
+    overflow: hidden;
+}
+.proshnoWrapper{
+    padding: 12px 15px;
+}
+.quesTopic{
+    overflow: hidden;
+}
+.qusType{
+    background-color: #f2f3f9;
+    color: #888797;
+    float: left;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 4px;
+}
+.event {
+    color: #888797;
+    float: left;
+    font-size: 15px;
+    font-style: normal;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.proshnoTopic a{
+    font-size: 18px;
+    font-weight: normal;
+    color:#121314;
+}
+.proshnoDate{
+    color: #888797;
+    float: left;
+    font-size: 15px;
+    font-style: normal;
+}
+.proshnoTopic em{
+    font-size: 18px;
+    font-style: normal;
+}
+.fbShare{
+    background:  url('../img/SpriteImage.png') no-repeat -28px -2095px;
+	padding-bottom: 9px;
+	height: 17px;
+    border: 1px solid #dddddd; 
+    border-radius: 2px;
+    float: left;
+    padding-left: 32px;
+    padding-right: 7px;
+}
+.ansBtnRight{
+    float: right;
+    border: 1px solid #dddddd; 
+    border-radius: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.ansImage{
+    float: left;
+}
+.imgDetail{
+    padding-top: 10px;
+}
+.name{
+    padding-left: 5px;
+}
+.imageContent{
+    text-align: center; 
+    overflow: hidden;
+    margin-bottom: 15px;   
+}
+.ansImage img{
+    border-radius: 50%;
+    width: 45px;
+}
+.abtDetail{
+    float: left;
+    padding-left: 5px;
+}
+.identity{
+    padding-left: 5px;
+}
+.questionerName{
+    color: #709ac4;
+}
+answerer_title:after{
+    color: #a0a0a0;
+    content: "I";
+    font-size: 12px;    
+}
+.answer{
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: normal;
+}
+.aroAns{
+    text-align: center;
+    color: #595958;
+    border-top: 1px solid #eeeeee;
+    padding-top: 8px;
+}
+
+.socialIcon{
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*------Feeder Area Ends-----*/
+
+.inputIcon{
+    background-color: #00728b;
+    border: 2px solid #fffcda;
+    border-radius: 50px;
+    bottom: 16px;
+    right: 16px;
+    box-shadow: 0 8px 5px #9e9c9c ;
+    color: #fffcda;
+    display: block;
+    height: 55px;
+    width: 55px;
+    padding-top: 3px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+.writeIcon{
+    background: url('../img/SpriteImage.png') no-repeat -21px -968px;
+	height: 42px;
+    margin: 2px 11px;
+}
+
+.transparentArea{
+    background-color: #8f8f8f;
+    height: 1000px;
+    width: 2000px;
+    left: 0;
+    top: 0;
+    position:fixed;
+    opacity: 0.7;
+    z-index:1;
+    
+}
+
+
+
+
+
